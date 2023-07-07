@@ -8,8 +8,8 @@ public class CH1SubtractionOfTwoDigitNumbers extends Exercise {
     public String generateExercise() {
         Random random = new Random();
 
-        int firstNumber = random.nextInt(10, 99);
-        int secondNumber = random.nextInt(10, 99);
+        int firstNumber = random.nextInt(10, 99 + 1);
+        int secondNumber = random.nextInt(10, 99 + 1);
 
         this.setExercise(firstNumber + " - " + secondNumber);
         this.setResponse(firstNumber - secondNumber);

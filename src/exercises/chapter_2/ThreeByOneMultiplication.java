@@ -9,8 +9,8 @@ public class ThreeByOneMultiplication extends Exercise {
     public String generateExercise() {
         Random random = new Random();
 
-        int threeDigitNumber = random.nextInt(100, 999);
-        int oneDigitNumber = random.nextInt(2, 9);
+        int threeDigitNumber = random.nextInt(100, 999 + 1);
+        int oneDigitNumber = random.nextInt(2, 9 + 1);
 
         this.setExercise(oneDigitNumber + " x " + threeDigitNumber);
         this.setResponse(oneDigitNumber * threeDigitNumber);

@@ -7,8 +7,8 @@ public class CH1SubtractionOfThreeDigitNumbers extends Exercise {
     public String generateExercise() {
         Random random = new Random();
 
-        int firstNumber = random.nextInt(100, 999);
-        int secondNumber = random.nextInt(100, 999);
+        int firstNumber = random.nextInt(100, 999 + 1);
+        int secondNumber = random.nextInt(100, 999 + 1);
 
         this.setExercise(firstNumber + " - " + secondNumber);
         this.setResponse(firstNumber - secondNumber);

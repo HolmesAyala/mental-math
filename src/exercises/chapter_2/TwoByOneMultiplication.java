@@ -10,7 +10,7 @@ public class TwoByOneMultiplication extends Exercise {
         Random random = new Random();
 
         int oneDigitNumber = random.nextInt(2, 9 + 1);
-        int twoDigitNumber = random.nextInt(10, 99);
+        int twoDigitNumber = random.nextInt(10, 99 + 1);
 
         this.setExercise(oneDigitNumber + " x " + twoDigitNumber);
         this.setResponse(oneDigitNumber * twoDigitNumber);
